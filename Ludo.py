@@ -1,5 +1,8 @@
+# LUDO - GAME
+
 import random
 
+#Picks a random number
 
 def roll_dice():
     min_value = 1
@@ -7,8 +10,7 @@ def roll_dice():
     roll = random.randint(min_value, max_value)
 
     return roll
-
-
+# Number of users to play
 while True:
     players = int(input("Enter the number of players (2 - 4): "))
     if 2 <= players <= 4:
