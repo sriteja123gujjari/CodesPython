@@ -15,7 +15,7 @@ while True:
     players = int(input("Enter the number of players (2 - 4): "))
     if 2 <= players <= 4:
         break
-    elif players==1 or players>=4 :
+    elif players==1 or players>4 :
         print("Must be between 2 - 4 players.")
     else:
         print("Invalid, try again.")
